@@ -72,14 +72,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="..\..\Dependencies\freetype2\2.5.5\msvc10\x64\freetype6.dll">
-      <Link>x64\freetype6.dll</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="..\..\Dependencies\freetype2\2.5.5\msvc10\x86\freetype6.dll">
-      <Link>x86\freetype6.dll</Link>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Fonts\Alegreya - SIL Open Font License.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -89,6 +81,8 @@
     <Content Include="Fonts\Cousine - SIL Open Font License 1.1.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="x64\freetype27.dll" />
+    <Content Include="x86\freetype27.dll" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
